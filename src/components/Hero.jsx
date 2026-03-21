@@ -13,27 +13,27 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">Start Free</span> for{" "}
+            <span className="text-white">14 Days</span> No Credit Card Required
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full ">
           <h1 className="text-white flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[100px] leading-[72px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>
+            Accept Payments <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">3x Faster</span>
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
         <h1 className="text-white  font-poppins font-semibold ss:text-[68px] text-[52px] ss:leading-[100px] leading-[72px] w-full">
-          Payment Method.
+          With Zero Fees.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          The modern payment solution for growing businesses. Accept payments,
+          manage subscriptions, and scale your revenue with our powerful
+          platform.
         </p>
       </div>
       <div
